@@ -138,7 +138,7 @@ const Docs = () => {
           </button>
           <iframe
             src={selectedPdf}
-            className="w-full h-screen rounded-[35px] shadow-lg bg-white"
+            className="w-full h-screen rounded-[35px] shadow-lg mt-10 bg-white"
             title="PDF Viewer"
           />
         </div>
