@@ -5,7 +5,6 @@ import Quiz from './Component/Quiz';
 import Docs from './Component/Docs';
 import Video from './Component/Video';
 import About from './Component/About';
-import OOSE from './Component/OOSE';
 import OOSE1 from './Component/OOSE1';
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
         <Route path="/docs" element={<Docs />} />
         <Route path="/video" element={<Video />} />
         <Route path="/about" element={<About />} />
-        <Route path="/oose" element={<OOSE />} />
         <Route path="/oose1" element={<OOSE1 />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
