@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import galaxy from "../assets/galaxy.png";
 import SDL from "../assets/SDL.pdf";
 import gsap from "gsap";
