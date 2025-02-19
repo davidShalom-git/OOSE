@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import galaxy from "../assets/galaxy.png";
-import Physics from "../assets/Physics.pdf";
+import SDL from "../assets/SDL.pdf";
 import gsap from "gsap";
 
 const Docs = () => {
@@ -12,7 +12,7 @@ const Docs = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const topics = [
-    { title: "OOSE", pdfSrc: Physics }
+    { title: "OOSE", pdfSrc: SDL }
   ];
 
   useEffect(() => {
