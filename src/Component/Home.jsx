@@ -6,8 +6,9 @@ import available from '../assets/online.png';
 import ignite from '../assets/Ignite.jpg';
 import learm from '../assets/Learm.png';
 import akash from "../assets/aakash.jpg";
-import Goku from "../assets/Goku.png";
+import Goku from "../assets/david.jpg";
 import Kathir from "../assets/Kathir.png";
+import adhi from "../assets/adhi.jpg";
 import { Link} from 'react-router-dom';
 import { TextPlugin } from 'gsap/TextPlugin';
 import gsap from 'gsap';
@@ -74,7 +75,7 @@ const Nav = () => {
           .to(
             h1Ref.current,
             {
-              text: "OOSE Mission...",
+              text: "OOSE Assignment...",
               duration: 2,
               ease: "power2.inOut",
             },
@@ -184,7 +185,7 @@ const Nav = () => {
       <div className="container flex justify-evenly items-center mt-20 flex-row md:flex-row lg:flex-row mx-auto p-5 md:p-10 rounded-[50px] mb-20 md:mb-24">
         <div ref={textRef} className="mb-5 md:mb-0 border border-white p-3 md:p-16 rounded-3xl mt-5 md:mt-0">
           <h1 ref={h1Ref} className="md:text-7xl text-6xl text-black font-bold mb-2"></h1>
-          <p className="text-2xl text-black">Assignment Mudikirom, Mass Kaatrom</p>
+          <p className="text-2xl text-black">Learning to Empower....</p>
         </div>
       </div>
 
@@ -195,21 +196,21 @@ const Nav = () => {
           ref={imagerefCard1}
         >
           <img src={learn} className="h-[180px] md:h-[200px] lg:h-[200px] lg:w-[330px] md:w-[200px] mx-auto" alt="Learn" />
-          <h1 className="text-center mt-10 text-xl md:text-3xl text-white">Nalla Naduthuranga</h1>
+          <h1 className="text-center mt-10 text-xl md:text-3xl text-white">Learn Well</h1>
         </div>
         <div
           className="shadow-lg shadow-black p-7 md:p-20 rounded-[90px] bg-black"
           ref={imagerefCard1}
         >
           <img src={anytime} className="h-[180px] md:h-[200px] lg:h-[220px] lg:w-[350px] md:w-[200px] mx-auto" alt="Learn" />
-          <h1 className="text-center mt-10 text-xl md:text-3xl text-white">Nalla Purithu</h1>
+          <h1 className="text-center mt-10 text-xl md:text-3xl text-white">Teach Well</h1>
         </div>
         <div
           className="shadow-lg shadow-black p-7 md:p-20 rounded-[90px] bg-black"
           ref={imagerefCard1}
         >
           <img src={available} className="h-[180px] md:h-[200px] lg:h-[220px] lg:w-[350px] md:w-[200px] mx-auto" alt="Learn" />
-          <h1 className="text-center mt-10 text-xl md:text-3xl text-white">Doubt Clear Aaguthu</h1>
+          <h1 className="text-center mt-10 text-xl md:text-3xl text-white">Supports</h1>
         </div>
         
         
@@ -260,26 +261,25 @@ const Nav = () => {
       </div>
 
 
-      <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-2 mx-auto mt-10">
+      <div className="container space-y-3 w-[50%] mx-auto mt-10">
         <div className="text-white p-8 sm:p-10 md:p-12 flex flex-col justify-center items-center bg-black rounded-[40px] mx-auto">
-          <img src={Goku} className="h-[150px] sm:h-[180px] md:h-[290px] w-[150px] sm:w-[180px] md:w-[250px] mx-auto" alt="React" />
-          <h1 className='mt-2 text-xl'>David</h1>
+          <h1 className='mt-2 text-xl font-extrabold '>David</h1>
         </div>
 
 
         <div className="text-white p-8 sm:p-10 md:p-12 flex flex-col justify-center items-center bg-black rounded-[40px] mx-auto">
-          <img src={Kathir} className="h-[150px] sm:h-[180px] md:h-[300px] w-[150px] sm:w-[180px] md:w-[240px] mx-auto" alt="HTML" />
-          <h1 className='mt-2 text-xl'>Kathir</h1>
+          
+          <h1 className='mt-2 text-xl font-extrabold'>Kathir</h1>
         </div>
 
         <div className="text-white p-8 sm:p-10 md:p-12 flex flex-col justify-center items-center bg-black rounded-[40px] mx-auto">
-          <img src={akash} className="h-[150px] sm:h-[180px] md:h-[340px] w-[150px] sm:w-[180px] md:w-[250px] mx-auto" alt="Node.js" />
-          <h1 className='mt-2 text-xl'>Aakashram</h1>
+          <h1 className='mt-2 text-xl font-extrabold'>Aakashram</h1>
         </div>
+      
 
         <div className="text-white p-8 sm:p-10 md:p-12 flex flex-col justify-center items-center bg-black rounded-[40px]  mx-auto">
-          <img src={learm} className="h-[150px] sm:h-[180px] md:h-[300px] w-[150px] sm:w-[180px] md:w-[270px] mx-auto" alt="Express.js" />
-          <h1 className='mt-2 text-xl'>Adhithya</h1>
+        
+          <h1 className='mt-2 text-xl font-extrabold'>Adhithya</h1>
         </div>
 
       </div>
